@@ -1,8 +1,6 @@
 Submission for Zidio Learning Platform
-/n
-Author: Suvash Sharma Subedi
-/n
-Title: Full Stack Java Web Developer Intern
+- Author: Suvash Sharma Subedi
+- Title: Full Stack Java Web Developer Intern
 
 ---
 
