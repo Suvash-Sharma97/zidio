@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZIDIOConnect - Student Portal</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>ZIDIOConnect</h1>
+      <p>Student Login & Profile Management</p>
+    </header>
+
+    <!-- Login Section -->
+    <section id="login-section" class="card">
+      <h2>Student Login</h2>
+      <form id="login-form">
+        <label>Email:
+          <input type="email" id="email" required />
+        </label>
+        <label>Password:
+          <input type="password" id="password" required />
+        </label>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    <!-- Profile Section (Hidden until login success) -->
+    <section id="profile-section" class="card hidden">
+      <h2>Profile Management</h2>
+      <form id="profile-form">
+        <label>Full Name:
+          <input type="text" id="fullName" required />
+        </label>
+        <label>Contact Number:
+          <input type="tel" id="contact" required />
+        </label>
+        <label>Resume Upload:
+          <input type="file" id="resume" accept=".pdf,.doc,.docx" />
+        </label>
+        <label>About Me:
+          <textarea id="about" rows="4" placeholder="Write a short bio..."></textarea>
+        </label>
+        <button type="submit">Save Profile</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
